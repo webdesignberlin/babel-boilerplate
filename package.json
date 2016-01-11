@@ -1,0 +1,31 @@
+{
+  "name": "js-babel-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for JS projects with Gulp set to rebuild src/ contents as es5 in lib/. Update project.json and gulpfile.js before use in new projects.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp babel && gulp watch"
+  },
+  "keywords": [
+    "js",
+    "gulp",
+    "babel",
+    "boilerplace",
+    "es6",
+    "es5"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeonidasKu/js-babel-boilerplate.git"
+  },
+  "author": "Leonid Kukuyev <leonidkukuyev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "rimraf": "^2.5.0",
+    "source-map-support": "^0.4.0"
+  }
+}
