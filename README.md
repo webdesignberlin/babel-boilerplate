@@ -6,8 +6,8 @@ es6 code goes in src/ and gets transpiled to dist/
 
 #### clean, compile, and watch
 
-`npm run dev`
+`$ npm run dev`
 
 #### clean and compile
 
-`gulp babel`
+`$ gulp babel`
