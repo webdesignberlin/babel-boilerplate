@@ -1,4 +1,3 @@
-// /*jshint node:true, esnext:true*/
 import { install } from 'source-map-support';
 install();
 
