@@ -6,7 +6,7 @@ var rimraf = require('rimraf');
 var path = require('path');
 
 var paths = {
-	es6: ['src/**/*.es6'],
+	es6: ['src/*.js','src/**/*.js'],
 	es5: 'dist',
 	// Must be absolute or relative to source map
 	sourceRoot: path.join(__dirname, 'src'),
