@@ -10,4 +10,8 @@ es6 code goes in src/ and gets transpiled to dist/
 
 #### clean and compile
 
-`$ gulp babel`
+`$ npm run build`
+
+#### run from dist/
+
+`$ node dist/app.js`

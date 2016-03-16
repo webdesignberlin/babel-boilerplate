@@ -4,7 +4,8 @@
   "description": "Boilerplate for JS projects with Gulp set to rebuild src/ contents as es5 in dist/. Update project.json and gulpfile.js before use in new projects.",
   "main": "index.js",
   "scripts": {
-    "dev": "gulp babel && gulp watch"
+    "dev": "gulp babel && gulp watch",
+    "build": "gulp babel"
   },
   "keywords": [
     "js",
