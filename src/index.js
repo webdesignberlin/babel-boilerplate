@@ -18,8 +18,7 @@ var destination = path.join(process.cwd(),folderName);
 console.log(`Creating new folder: ${folderName}`);
 
 fs.mkdir(folderName, function(err) {
-    //TODO: Catch error when same-named directory already exists to prevent
-    // writing files into existing directory
+
 	if (err) {
         if(err.code == 'EEXIST'){
             return console.log(`Directory '${folderName}' already exists. Please specify a different directory name.`.red);
