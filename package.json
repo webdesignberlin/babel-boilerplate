@@ -1,7 +1,7 @@
 {
   "name": "js-babel-boilerplate",
   "version": "1.0.0",
-  "description": "Boilerplate for JS projects with Gulp set to rebuild src/ contents as es5 in dist/. Update project.json and gulpfile.js before use in new projects.",
+  "description": "Boilerplate for JS projects.",
   "main": "index.js",
   "scripts": {
     "dev": "babel src --out-dir dist --presets es2015 --source-maps inline --watch",
