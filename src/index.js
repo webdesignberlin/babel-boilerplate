@@ -4,7 +4,8 @@ install();
 
 import path from 'path';
 import { ncp } from 'ncp';
-import mkdirp from 'mkdirp';
+/*import mkdirp from 'mkdirp';*/
+import fs from 'fs';
 
 var folderName = process.argv[2];
 if(!folderName){
