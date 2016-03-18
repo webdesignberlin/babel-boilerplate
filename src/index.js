@@ -3,9 +3,9 @@ import { install } from 'source-map-support';
 install();
 
 import path from 'path';
-import { ncp } from 'ncp';
-/*import mkdirp from 'mkdirp';*/
 import fs from 'fs';
+import { ncp } from 'ncp';
+import colors from 'colors';
 
 var folderName = process.argv[2];
 if(!folderName){
@@ -17,11 +17,15 @@ var destination = path.join(process.cwd(),folderName);
 
 console.log(`Creating new folder: ${folderName}`);
 
-mkdirp(folderName, function(err) {
+fs.mkdir(folderName, function(err) {
     //TODO: Catch error when same-named directory already exists to prevent
     // writing files into existing directory
 	if (err) {
-		console.log(err);
+        if(err.code == 'EEXIST'){
+            return console.log(`Directory '${folderName}' already exists. Please specify a different directory name.`.red);
+        } else {
+            return console.log(err);
+        }
 	}
 
     console.log(`Copying es6-babel boilerplate directory from: \n${source}\n to: \n${destination}\n ...`);
