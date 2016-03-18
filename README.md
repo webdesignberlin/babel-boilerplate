@@ -1,8 +1,6 @@
-# js-babel-boilerplate
+# babel-boilerplate
 
-Clone this to have a pre-built Node project with Babel enabled using Gulp
-
-es6 code goes in src/ and gets transpiled to dist/
+Boilerplate with Babel for es6 projects.
 
 #### clean, compile, and watch
 
@@ -14,4 +12,4 @@ es6 code goes in src/ and gets transpiled to dist/
 
 #### run from dist/
 
-`$ node dist/app.js`
+`$ node dist/index.js`
