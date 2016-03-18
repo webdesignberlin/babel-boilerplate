@@ -27,6 +27,7 @@
   "author": "Leonid Kukuyev <leonidkukuyev@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "mkdirp": "^0.5.1",
     "ncp": "^2.0.0",
     "source-map-support": "^0.4.0"
   },
