@@ -1,6 +1,6 @@
 {
   "name": "babel-boilerplate",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Boilerplate with Babel for es6 projects.",
   "bin": {
     "es6-babel-generate": "./dist/index.js"
