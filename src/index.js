@@ -2,11 +2,17 @@
 import { install } from 'source-map-support';
 install();
 
-import printer from './someModule.js';
+import path from 'path';
+import { ncp } from 'ncp';
 
-console.log(`file path is: ${process.argv[1]}`);
-console.log(`process.cwd: ${process.cwd()}`);
+var source = path.normalize(path.join(__dirname, '..', 'repo'));
+var destination = process.cwd();
 
-printer();
-
-throw new Error('Test! ');
+console.log(source);
+console.log(destination);
+ncp(source, destination, function (err) {
+ if (err) {
+   return console.error(err);
+ }
+ console.log('done!');
+});
