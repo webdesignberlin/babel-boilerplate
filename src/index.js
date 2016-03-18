@@ -14,17 +14,13 @@ if(!folderName){
 var source = path.normalize(path.join(__dirname, '..', 'repo'));
 var destination = path.join(process.cwd(),folderName);
 
-console.log(`folderName: ${folderName}`);
-console.log(`source: ${source}`);
-console.log(`destination: ${destination}`);
 console.log(`Creating new folder: ${folderName}`);
 
-try{
 mkdirp(folderName, function(err) {
     //TODO: Catch error when same-named directory already exists to prevent
     // writing files into existing directory
 	if (err) {
-		throw err;
+		console.log(err);
 	}
 
     console.log(`Copying es6-babel boilerplate directory from: \n${source}\n to: \n${destination}\n ...`);
@@ -36,6 +32,3 @@ mkdirp(folderName, function(err) {
         console.log('run $ npm install && npm run dev\n');
     });
 });
-} catch(e) {
-    console.log(e);
-}
