@@ -2,7 +2,7 @@
   "name": "js-babel-boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate for JS projects.",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "dev": "babel src --out-dir dist --presets es2015 --source-maps inline --watch",
     "build": "babel src --out-dir dist --presets es2015 --source-maps inline",
