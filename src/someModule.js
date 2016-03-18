@@ -1,3 +1,3 @@
 module.exports = function printer() {
-	console.log('printer module works!');
-}
+	console.log('\nprinter module works!');
+};
