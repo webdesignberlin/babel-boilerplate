@@ -1,7 +1,7 @@
 {
-  "name": "js-babel-boilerplate",
-  "version": "1.0.0",
-  "description": "Boilerplate for JS projects.",
+  "name": "babel-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate with Babel for es6 projects.",
   "main": "./dist/index.js",
   "scripts": {
     "dev": "babel src --out-dir dist --presets es2015 --source-maps inline --watch",
