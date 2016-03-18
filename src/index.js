@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { install } from 'source-map-support';
 install();
 
