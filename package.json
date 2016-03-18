@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "Boilerplate with Babel for es6 projects.",
   "bin": {
-    "babel-boilerplate": "./dist/index.js"
+    "es6-babel-generate": "./dist/index.js"
   },
   "main": "./dist/index.js",
   "scripts": {
