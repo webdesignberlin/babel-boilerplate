@@ -8,10 +8,11 @@ Boilerplate with Babel for es6 projects.
 
 ### generate es6 project
 
-`$ es6-babel-generate nameOfNewFolder`
-
-`$ cd nameOfNewFolder`
-
+```
+$ es6-babel-generate nameOfNewFolder
+$ cd nameOfNewFolder
+$ npm install
+```
 
 ### using boilerplate:
 
