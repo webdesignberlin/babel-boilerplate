@@ -1,6 +1,6 @@
 {
   "name": "babel-boilerplate",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Boilerplate with Babel for es6 projects.",
   "bin": {
     "es6-babel-generate": "./dist/index.js"
@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/eldino/js-babel-boilerplate.git"
+    "url": "https://github.com/eldino/babel-boilerplate.git"
   },
   "author": "Leonid Kukuyev <leonidkukuyev@gmail.com>",
   "license": "MIT",
