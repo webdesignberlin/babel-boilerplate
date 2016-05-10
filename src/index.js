@@ -5,7 +5,6 @@ install();
 import path from 'path';
 import fs from 'fs';
 import { ncp } from 'ncp';
-import colors from 'colors';
 
 var folderName = process.argv[2];
 if(!folderName){
