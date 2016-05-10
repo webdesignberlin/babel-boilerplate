@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "./dist/index.js",
 	"scripts": {
-		"dev": "babel src --out-dir dist --presets es2015 --source-maps inline --watch",
-		"build": "babel src --out-dir dist --presets es2015 --source-maps inline",
+		"dev": "babel src --out-dir dist --source-maps inline --watch",
+		"build": "babel src --out-dir dist --source-maps inline",
 		"prepublish": "npm run build"
 	},
 	"keywords": [],
