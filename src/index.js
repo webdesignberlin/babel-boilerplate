@@ -33,6 +33,8 @@ fs.mkdir(folderName, function(err) {
             return console.error(err);
         }
         console.log('\nCopying complete');
-        console.log('run $ npm install && npm run dev\n');
+        console.log('run:');
+        console.log(`$ cd ${folderName}`);
+        console.log('$ npm install && npm run dev\n');
     });
 });
